@@ -15,7 +15,7 @@ class Router {
     }
 
     public function route($uri, $method) {
-        $basePath = '/public';
+        $basePath = '/api/public';
         $uri = str_replace($basePath, '', $uri);
         
         // Verifica se a rota existe
