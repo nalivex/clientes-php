@@ -3,7 +3,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/API_REST-FF6C37?style=for-the-badge&logo=fastapi&logoColor=white">
 </div>
 
 ## 📋 Índice
