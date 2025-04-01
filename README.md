@@ -20,7 +20,6 @@
 
 ## ✨ Dependências
 - PHP >8
-- Compose
 
 ## 🚀 Instalação
 
@@ -30,9 +29,6 @@ git clone git@github.com:nalivex/clientes-php.git
 
 # Acesse a pasta do projeto
 cd clientes-php
-
-# Instale as dependências
-compose install
 ```
 
 ## 🛠 Usar
