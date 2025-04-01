@@ -37,12 +37,12 @@ compose install
 ```
 
 ## 🛠 Usar
-# 
 ```bash
+# Iniciar Projeto
 php -S localhost:8000
 
 
-#Rodar migrations
+# Rodar migrations
 php database/migrations/create_database.php           
 php database/migrations/001_create_table_users.php           
 php database/migrations/002_create_table_logs.php           
