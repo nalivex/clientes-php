@@ -31,16 +31,19 @@ git clone git@github.com:nalivex/clientes-php.git
 cd clientes-php
 ```
 
+## Deve-se criar um arquivo .env copiando o arquivo .env-example e preencher com os dados da sua conexão
+
 ## 🛠 Usar
 ```bash
-# Iniciar Projeto
-php -S localhost:8000
 
+#Caso use docker:
+docker compose up -d
 
 # Rodar migrations
-php database/migrations/create_database.php           
-php database/migrations/001_create_table_users.php           
-php database/migrations/002_create_table_logs.php           
+php migrate.php
+
+# Iniciar Projeto
+php -S localhost:8000
 
 ```
 
